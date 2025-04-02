@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ITS-Teologia - Instituto Teológico Shammah. Oferecemos uma ampla variedade de cursos teológicos, desde graduações até mestrado e doutorado, desde 2007.">
+    <meta name="keywords" content="Itsteologia,ITS-teologia,Teologia, Cursos Teológicos,Instituto Teológico Shammah, Graduação em Teologia, Mestrado em Teologia, Doutorado em Teologia, Estudo Bíblico">
+    <meta name="google-adsense-account" content="ca-pub-7724129049344801">
+    <meta name="author" content="ITS-Teologia">
+    <meta name="robots" content="index, follow">
+    <script type="application/ld+json">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    
+
+<!--Favicon em PNG para navegadores modernos-->
+<link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+
+<!-- Favicon para telas de alta resolução (Retina) -->
+<link rel="icon" href="images/favicon-64x64.png" sizes="64x64" type="image/png">
+
+<!-- Apple Touch Icon (para dispositivos iOS) -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+<!-- Favicon para dispositivos Android -->
+<link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png" type="image/png">
+<link rel="icon" sizes="512x512" href="images/android-chrome-512x512.png" type="image/png">
+
+<!-- Favicon para Microsoft (Windows 10 tiles) -->
+<meta name="msapplication-TileImage" content="images/mstile-150x150.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://www.itsteologia.com.br",
+  "logo": "https://www.itsteologia.com.br/images/logo.jpg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Instituto Teológico Shammah",
+  "url": "https://www.itsteologia.com.br",
+  "logo": "https://www.itsteologia.com.br/images/logo.jpg",
+  "sameAs": [
+    "https://itsteologiablog.blogspot.com",
+    "https://wa.me/554187997127"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55-41-87997127",
+    "contactType": "Customer Service"
+  }
+}
+</script>
+   <title>Assembleia do Altissimo - Na Mira da Salvação</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            overflow-x: hidden;
+            animation: backgroundFade 3s ease-in-out;
+        }
+
+        @keyframes backgroundFade {
+            from {
+                background-color: #fff;
+            }
+            to {
+                background-color: #f4f4f9;
+            }
+        }
+
+        header {
+            background: linear-gradient(45deg, #000000,#000000, #FFFF00,#FFA500,#FF8C00);
+            padding: 10px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .logo img {
+           height: 150px;
+            max-height: 100%;
+            border-radius: 20px;
+            
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            transition: background 0.3s, transform 0.3s, color 0.3s;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            transform: scale(1.1);
+            color: #000;
+        }
+
+        .banner {
+            background: url('images/banner.png') no-repeat center center;
+            background-size: cover;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 0 20px;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .banner h1 {
+            font-size: 3.5em;
+            margin: 0;
+        }
+
+        .content {
+            padding: 40px 20px;
+            animation: contentFadeIn 2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @keyframes contentFadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            color: green;
+            position: relative;
+            margin-bottom: 20px;
+            display: inline-block;
+            animation: h2SlideIn 1s forwards;
+            background-color: #e0e7ff;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 100%;
+        }
+
+        @keyframes h2SlideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .content h2::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background-color: #2575fc;
+            bottom: -10px;
+            left: 0;
+            border-radius: 2px;
+            animation: underlineExpand 1s forwards;
+        }
+
+        @keyframes underlineExpand {
+            from {
+                width: 0;
+            }
+            to {
+                width: 50px;
+            }
+        }
+
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+            animation: pFadeIn 1s forwards;
+            background-color: #e0e7ff;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        @keyframes pFadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .image-section {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeIn 2s;
+        }
+
+        .image-section h3 {
+            font-size: 2em;
+            color: #2575fc;
+            margin-bottom: 10px;
+        }
+
+        .image-section p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-box {
+            width: 300px;
+            text-align: center;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 200px; /* Define a altura fixa para todas as imagens */
+            object-fit: cover; /* Mantém a proporção da imagem sem distorção */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            cursor: pointer; /* Mostra que a imagem é clicável */
+        }
+
+        .image-box img:hover {
+            transform: scale(1.05);
+        }
+
+        .image-box h4 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #2575fc;
+        }
+
+        /* Estilo do Modal */
+        .modal {
+            display: none; /* Inicialmente escondido */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 80%;
+        }
+
+        .modal img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 2em;
+            color: #fff;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .modal-close:hover {
+            color: #f00;
+        }
+
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s, transform 0.3s;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #20b955;
+            transform: scale(1.1);
+        }
+
+        .whatsapp-button img {
+            width: 30px;
+            height: 30px;
+        }
+
+        footer {
+            background: linear-gradient(45deg, #2F4F4F, #00FF7F, #00FF00);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        footer a {
+            color: #f4f4f9;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #c1c7ff;
+        }
+
+        @media (max-width: 768px) {
+            .image-box img {
+                height: 150px; /* Ajuste a altura das imagens em dispositivos móveis */
+            }
+            .image-container {
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Logo da Igreja">
+        </div>
+        <nav>
+          
+             <a href="index.html">Inicio</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="contato.html">Nosso Contato</a> </nav>
+    </header>
+    <div class="banner">
+        <h1>Conheça Nossa História</h1>
+    </div>
+    <div class="content">
+        <h2>Nossa Missão</h2>
+        <p><b>
+            Nosso propósito é alcançar almas para Jesus, cumprindo a missão de levar a mensagem transformadora do Evangelho a todos que necessitam de salvação. Nossos pastores são preparados e capacitados, não apenas no conhecimento da Palavra, mas também no amor e na compaixão pelo próximo. Com dedicação e compromisso, eles anunciam as boas-novas de Deus, levando esperança, fé e renovação espiritual a cada coração que anseia por uma vida restaurada na presença do Senhor.<b></p>
+
+        <!--<h2>Nossa História</h2>
+        <p>O ITS - Instituto Teológico Shammah nasceu em 2007, ainda na era dos disquetes, com o CBT - Curso Básico em Teologia, oferecido exclusivamente através de apostilas aspirais e aulas a distância via correios. Ao longo dos anos, expandimos nossas modalidades de ensino para incluir aulas presenciais, NETD's, aulas online e particulares. Hoje, oferecemos mais de dez modalidades de cursos, incluindo cursos avançados como o CET - Curso Elementar de Teologia, CTT - Curso Técnico de Teologia, Bacharelado, Mestrado e Doutorado em Teologia, além de uma vasta gama de cursos específicos. Orgulhamo-nos de ter formado teólogos e líderes em todo o Brasil e no exterior, com um corpo docente altamente qualificado. Consolidado no mercado teológico, o ITS conta com excelentes salas de aula, uma biblioteca virtual com mais de 32.000 livros, uma biblioteca física com mais de 800 livros e uma Bíblia histórica de 1843. Nosso passado marcante e nosso presente atuante nos motivam a sonhar com um futuro brilhante, onde o conhecimento teológico seja amplamente disseminado e valorizado.</p>-->
+
+        <div class="image-section">
+            <h3>Galeria de Fotos</h3>
+            <p>Confira alguns momentos</p>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <img src="images/img01.jpeg" alt="Nossa história 1">
+                
+            </div>
+            <div class="image-box">
+                <img src="images/img02.jpeg" alt="Nossa história 2">
+                
+            </div>
+            <div class="image-box">
+                <img src="images/img03.jpeg" alt="Nossa história 3">
+               
+            </div>
+            <!--<div class="image-box">
+                <img src="images/fctt02.jpg" alt="Nossa história 3">
+                <h4>Formatura do curso técnico em teologia (CTT)</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/fctt2.jpg" alt="Nossa história 3">
+                <h4>Formatura do curso técnico em teologia (CTT)</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/fctt03.jpg" alt="Nossa história 3">
+                <h4>Formatura do curso técnico em teologia (CTT)</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/fctt04.jpg" alt="Nossa história 3">
+                <h4>Formatura do curso técnico em teologia (CTT)</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/fctt05.jpg" alt="Nossa história 3">
+                <h4>Formatura do curso técnico em teologia (CTT)</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/fctt06.jpg" alt="Nossa história 3">
+                <h4>Formatura do curso técnico em teologia (CTT)</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/fctt07.jpg" alt="Nossa história 3">
+                <h4>Formatura do curso técnico em teologia (CTT)</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/fctt08.jpg" alt="Nossa história 3">
+                <h4>Formatura do curso técnico em teologia (CTT)</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/s1.jpg" alt="Nossa história 3">
+                <h4>Seminário louvor e oração</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/s2.jpg" alt="Nossa história 3">
+                <h4>Seminário louvor e oração</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/s3.jpg" alt="Nossa história 3">
+                <h4>Seminário louvor e oração</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/s4.jpg" alt="Nossa história 3">
+                <h4>Seminário louvor e oração</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/s5.jpg" alt="Nossa história 3">
+                <h4>Seminário louvor e oração</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/cic1.jpg" alt="Nossa história 3">
+               <h4>Curso de capelania e formatura</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/cic2.jpg" alt="Nossa história 3">
+               <h4>Curso de capelania e formatura</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/cic3.jpg" alt="Nossa história 3">
+                <h4>Curso de capelania e formatura</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/cic4.jpg" alt="Nossa história 3">
+                <h4>Curso de capelania e formatura</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/cic5.jpg" alt="Nossa história 3">
+                <h4>Curso de capelania e formatura</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/cic6.jpg" alt="Nossa história 3">
+                <h4>Curso de capelania e formatura</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/cic7.jpg" alt="Nossa história 3">
+                <h4>Curso de capelania e formatura</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/cic8.jpg" alt="Nossa história 3">
+                <h4>Curso de capelania e formatura</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/cic9.jpg" alt="Nossa história 3">
+                <h4>Curso de capelania e formatura</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/cic10.jpg" alt="Nossa história 3">
+                <h4>Curso de capelania e formatura</h4>
+            </div>
+            <div class="image-box">
+                <img src="images/netd1.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd2.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd3.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd4.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd6.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd7.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd8.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd9.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd10.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>
+             <div class="image-box">
+                <img src="images/netd11.jpg" alt="Nossa história 3">
+                <h4>Formatura NETD</h4>
+            </div>-->
+             
+    </div>
+
+    <!-- Modal para visualização das imagens -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Imagem em tamanho original">
+        </div>
+    </div>
+
+    <a href="https://wa.me/5591980877025" class="whatsapp-button" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+    <footer>
+        <p>&copy;Na Mira da Salvação. Todos os direitos reservados.</p>
+       
+    </footer>
+
+    <script>
+        // Selecionar todos os elementos de imagem
+        const images = document.querySelectorAll('.image-box img');
+
+        // Selecionar o modal e o modalImage
+        const modal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalImage');
+        const closeBtn = document.querySelector('.modal-close');
+
+        images.forEach((image) => {
+            image.addEventListener('click', () => {
+                modal.style.display = 'flex';
+                modalImage.src = image.src;
+                modalImage.alt = image.alt;
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
